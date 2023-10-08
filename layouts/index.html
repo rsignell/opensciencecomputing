@@ -49,13 +49,6 @@
                 </div>
                 {{ end }}
             </div>
-            <div class="lur-jumbotron lur-jumbotron-primary my-4">
-                <p class="m-0 text-center">
-                    Sollten Sie sich und ihr Thema in den genannten
-                    Beispielen nicht wiederfinden, können wir gerne in einem persönlichen
-                    Gespräch herausfinden, ob Sie bei mir gut aufgehoben sind.
-                </p>
-            </div>
         </div>
     </div>
 </section>
@@ -84,14 +77,14 @@
         </div>
     </div>
 
-    <h3 class="text-center text-uppercase border-top border-bottom p-4 m-0">Ausbildung</h3>
+    <h3 class="text-center text-uppercase border-top border-bottom p-4 m-0">Education</h3
     <div class="vita p-4">
         {{ range $idx, $entry := $.Site.Data.vita.education }}
         {{ partial "vita-entry.html" (dict "entry" . "idx" $idx ) }}
         {{ end }}
     </div>
 
-    <h3 class="text-center text-uppercase border-top border-bottom p-4 m-0">Berufliche Laufbahn</h3>
+    <h3 class="text-center text-uppercase border-top border-bottom p-4 m-0">Professional Experience</h3>
     <div class="vita p-4">
         {{ range $idx, $entry := $.Site.Data.vita.work_experience }}
         {{ partial "vita-entry.html" (dict "entry" . "idx" $idx ) }}
@@ -116,7 +109,7 @@
                <h2 id="pricing">Pricing</h2>
                 <h3 class="h4">My hourly rate </h3>
                 
-                   <p>My rate is the same whether used for training, workflow develpment or support. 
+                   <p>My rate is the same whether used for training, workflow develpment or support, in person or virtual.  I don't charge for travel time, but expect travel costs to be reimbursed. 
                 </p>
             </div>
              <div class="col-12 col-lg-5 d-flex flex-column justify-content-center mt-3 mt-sm-0">
