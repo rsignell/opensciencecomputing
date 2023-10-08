@@ -56,7 +56,7 @@
     <div class="container pb-5">
         <div class="row">
             <div class="col mb-5 order-lg-2 col-lg-6 d-flex justify-content-center align-items-center">
-                {{ $portraitResource:= .Page.Resources.GetMatch "marie-portrait.jpeg" }}
+                {{ $portraitResource:= .Page.Resources.GetMatch "Rich_signell2.jpg" }}
                 {{ $portrait := $portraitResource.Resize "220x220 q100" }}
                 <img class="rounded-circle" src="{{ $portrait.RelPermalink | safeURL }}"
                     alt="Portrait von Marie Lass zusammen mit ihrem Hund Rumo." width="220" height="220">
