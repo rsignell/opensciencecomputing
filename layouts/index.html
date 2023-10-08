@@ -17,7 +17,7 @@
         {{ $boyResource:= .Page.Resources.GetMatch "boy-stairs.jpeg" }}
         {{ $boy1 := $boyResource.Resize "x200 q100" }}
         {{ $boy2 := $boyResource.Resize "x400 q100" }}
-        <img class="background" src="/img/boy-stairs-cropped-compressed.jpg"
+        <img class="background" src="/opensciencecomputing/img/boy-stairs-cropped-compressed.jpg"
             srcset="{{ $boy1.RelPermalink | safeURL }} {{ $boy1.Width }}w, {{ $boy2.RelPermalink | safeURL }} {{ $boy2.Width }}w, /img/boy-stairs-cropped-compressed.jpg 2739w"
             sizes="(max-width: 576px) {{ $boy1.Width }}px, (max-width: 768px) {{ $boy2.Width }}px, 2739px"
             alt="Ein kleiner Junge steht vor einer Treppem mit sehr vielen, scheinbar unüberwindbaren Stufen.">
@@ -26,16 +26,9 @@
                 <div class="col-12 col-lg-6">
                     <h2 id="offer">Open Science Computing</h2>
                     <p class="lead">
-                        Der systemische Ansatz betrachtet ein Problem im System, in dem es entsteht.
+                        Accelerating Open Science by expanding the community of researchers sharing cloud-optimized data and conducting analysis and visualization with a scalable open-source framework that works effectively on laptops, HPC and Cloud. 
                     </p>
-                    <p>Das System kann zum Beispiel eine Familie, ein Paar oder ein Team sein. Möglich ist aber auch,
-                        das
-                        innere Team einer einzelnen Person auf systemische Weise zu betrachten. Auf überaus
-                        wertschätzende
-                        Art hilft diese Betrachtungsweise dabei, neue Perspektiven zu eröffnen und die Last von den
-                        Schultern einer einzelnen Person zu nehmen. Mit fachlich fundierten und gleichzeitig lebendigen
-                        Methoden werden Sie durch mich angeleitet, mit sich und ihrem System in Bewegung zu kommen. Denn
-                        Bewegung macht Veränderung möglich.</p>
+                
                 </div>
             </div>
         </div>
