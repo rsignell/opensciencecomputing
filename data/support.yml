@@ -1,17 +1,17 @@
 callouts:
   - icon: house-door
-    text: Familiären Konflikten
+    text: Onboarding and training for scalable open-source scientific computing
   - icon: hand-index
-    text: Erziehe&shy;rischen Themen
+    text: Support and trouble-shooting
   - icon: arrows-angle-expand
-    text: Problemen in der Paar&shy;beziehung
+    text: Creating and distributing cloud-optimized data 
   - icon: signpost-split
-    text: Ansteh&shy;enden Ent&shy;schei&shy;dungen
+    text: Consulting
   - icon: eyeglasses
-    text: Selbst&shy;findungs&shy;prozessen
+    text: Support and troubleshooting 
   - icon: bookshelf
-    text: Beruf&shy;lichen Heraus&shy;forde&shy;rungen
+    text: Deployment of cloud-based infrastructure for scalable computing
   - icon: bounding-box-circles
-    text: Team&shy;kommu&shy;nikation
+    text: HPC on the Cloud 
   - icon: lightning
-    text: Inneren Konflikten
+    text: Enabling scalable big data workflows
