@@ -1,5 +1,5 @@
-baseURL = "https://lassunsreden.ch/"
-languageCode = "de-ch"
-title = "Systemische Beratung & Therapie | Marie Lass"
+baseURL = "https://opensciencecomputing.com/"
+languageCode = "en"
+title = "Open Science Computing | Rich Signell"
 disableKinds = ["taxonomy", "term"]
 enableRobotsTXT = true
